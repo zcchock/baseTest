@@ -14,7 +14,7 @@ import java.util.concurrent.ConcurrentHashMap;
  * @author chock
  * @since 2019/9/18
  */
-public class JunitMain {
+public class OwnStructJunit {
 
     @Test
     public void testStringEquals() {
