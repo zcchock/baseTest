@@ -1,4 +1,4 @@
-package com.zc.test;
+package com.zc.test.otherTest;
 
 
 import com.zc.test.dataStruct.ownStruct.stack.OwnStrongStack;

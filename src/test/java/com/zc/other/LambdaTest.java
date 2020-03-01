@@ -1,4 +1,4 @@
-package com.zc;
+package com.zc.other;
 
 import org.junit.Test;
 
