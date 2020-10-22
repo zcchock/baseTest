@@ -1,12 +1,12 @@
-package com.zc.test.dataStruct.ownStruct.hash;
+package com.zc.dataStruct.ownStruct.hash;
 
 /**
- * 哈希表：线性探测
+ * 哈希表：再哈希法
  *
  * @author chock
- * @since 2019/9/26
+ * @since 2019/9/27
  */
-public class OwnHashTable {
+public class OwnHashAgain {
 
     /**
      * 每个数据项信息
@@ -26,7 +26,7 @@ public class OwnHashTable {
     private DataItem noItem;
 
 
-    public OwnHashTable(int size) {
+    public OwnHashAgain(int size) {
         this.arraySize = size;
         this.hashArray = new DataItem[size];
         this.noItem = new DataItem(-1);
@@ -50,6 +50,11 @@ public class OwnHashTable {
         return key % arraySize;
     }
 
+
+    public int getHashStep(int key) {
+        return 5 - key % 5;
+    }
+
     /**
      * 插入数据
      *
@@ -62,8 +67,10 @@ public class OwnHashTable {
         }
         int key = item.getKey();
         int hashVal = getHash(key);
+        int stepSize = getHashStep(key);
         while (hashArray[hashVal] != null && hashArray[hashVal].getKey() != -1) {
-            ++hashVal;
+            hashVal += stepSize;
+            // 移动特定步数
             hashVal %= arraySize;
         }
         hashArray[hashVal] = item;

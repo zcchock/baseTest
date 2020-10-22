@@ -1,6 +1,6 @@
-package com.zc.test.dataStruct.ownStruct.linkList;
+package com.zc.dataStruct.ownStruct.linkList;
 
-import com.zc.test.dataStruct.base.Node;
+import com.zc.dataStruct.base.Node;
 
 /**
  * @author chock

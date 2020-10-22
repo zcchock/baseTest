@@ -1,6 +1,6 @@
-package com.zc.test.dataStruct.ownStruct.hash;
+package com.zc.dataStruct.ownStruct.hash;
 
-import com.zc.test.dataStruct.base.LinkNode;
+import com.zc.dataStruct.base.LinkNode;
 
 /**
  * @author chock

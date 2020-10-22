@@ -1,4 +1,4 @@
-package com.zc.test.dataStruct.ownStruct.queue;
+package com.zc.dataStruct.ownStruct.queue;
 
 /**
  * @author chock

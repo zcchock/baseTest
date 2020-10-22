@@ -1,6 +1,6 @@
-package com.zc.test.dataStruct.ownStruct.tree;
+package com.zc.dataStruct.ownStruct.tree;
 
-import com.zc.test.dataStruct.base.TreeNode;
+import com.zc.dataStruct.base.TreeNode;
 
 /**
  * @author chock

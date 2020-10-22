@@ -1,8 +1,8 @@
 package com.zc;
 
 
-import com.zc.test.dataStruct.ownStruct.linkList.OwnDoubleLinkList;
-import com.zc.test.dataStruct.ownStruct.stack.OwnStrongStack;
+import com.zc.dataStruct.ownStruct.linkList.OwnDoubleLinkList;
+import com.zc.dataStruct.ownStruct.stack.OwnStrongStack;
 import org.junit.Assert;
 import org.junit.Test;
 

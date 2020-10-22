@@ -1,4 +1,4 @@
-package com.zc.test.dataStruct.base;
+package com.zc.dataStruct.base;
 
 /**
  * @author chock

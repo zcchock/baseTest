@@ -14,7 +14,20 @@ public class TestMap {
 
     public static void main(String[] args) {
 //        testHashMap();
-        testConcurrentHashMap();
+//        testConcurrentHashMap();
+
+        Map<Integer, String> map = new HashMap();
+        map.put(1, "Chock");
+        map.put(2, "C");
+        map.put(3, "h");
+        map.put(4, "o");
+        map.computeIfAbsent(5, k -> new String());
+        System.out.println(map.toString());
+
+    }
+
+    private static String apply(Integer integer) {
+        return "cong";
     }
 
     // 需求使用2连个线程，每个线程循环5次，每循环一次让Map的value增加1
